@@ -312,7 +312,6 @@ with tab2:
             x='study_hours',
             y='G3',
             color='gender_label',
-            trendline='ols',
             color_discrete_map={'Male': '#3498db', 'Female': '#e91e63'},
             labels={
                 'study_hours': 'Hours Studied per Week',
